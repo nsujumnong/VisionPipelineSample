@@ -1,0 +1,3 @@
+/home/aimlab3/CLionProjects/ScanImage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/aimlab3/CLionProjects/ScanImage/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aimlab3/CLionProjects/ScanImage/cmake-build-debug/CMakeFiles/ScanImage.dir

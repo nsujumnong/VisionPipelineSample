@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.12)
+project(pcd_tutorial)
+find_package(PCL 1.8 REQUIRED COMPONENTS common io)
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(pcd_tutorial main.cpp)
+target_link_libraries(pcd_tutorial ${PCL_COMMON_LIBRARIES} ${PCL_IO_LIBRARIES})
